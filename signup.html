@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Top News Sign Up</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+
+<main class="form-signin">
+  <form action="/" method="post">
+    <img class="mb-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAABelBMVEX///9MyIRMyPT/h8r/00z/lP8XuIFMu09MpHT/1VdnzvVGx4H/2Tz/gtCL2Kv/kv9OyfkqvKT/pv//fsf/ndL/idT/9vtMvVuEwk7/hc7x+/f/istx0ZrJ7Pv/ecUAsnX/z/9pyaLe8+s1vYy25vqEnJDS7+NMqITA6NBMw3Q2w/P/1ev/7/es4sFMpHU3tTv/i//x+/7/uN7/wuPD5cTU7dU5nWh8yn6L0I3k9OQ0wnf/lbpMqG7/7f//4f8/uEKj3/n/4vH/6bH/0Dv/2Gv/3YH/jeX/kPH/xP/c8vz/rv//zOdbzI1ztI//rtowmmKs0Lup2qp70/b/nv//4pT/67v/89X/+Oj/6JD/etr/zFf/8Mz/jr//9d//oKn/qJ7/sJWhl52Esmw7wcutlaRBxNrCkqzTj7Tdi7wiupX/1v9MrGZooH58nokyvrlMs1uMv6Ga1Jy55elnwmmCu5oAsWnZjbmlzraTmZaVoYqiyEfEykzfz0w6vWHRGiKlAAALIElEQVR4nO3ci3/T1hUHcNmGJMRNUjB1Zhti4gTjmMROILjYhdq8OgwkDpSu67oX66B0BUoHKezR/33n3KsrXVm615b1sDLO7/MpyI/EH30rHZ0jyRgGhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoRym3T8STaa+nn9w+FktuT3s9/eROPCZ3pr2efvI4HpPH015PP7l5i0yG81UsJrduTns9/eTbeEy+nfZ6+snvyMSVr+Mx+dO019NPYjL5etrr6SvxmEx7Lf0lDpKjZnIiDpMjNe7ENPAcqXEnpoFHjDvp+QgTnsnvPwonY5nU09ElkMm2I18shJJv/qAhuSXGnQhJ0o+CmBxfOi7li0wo+Ua3mVjjznxSTU5FYbKg23lufWV+9KMITXpBTO45TH4bjklGayLGnShN1oOY3I3C5I9aEzHu9I6GyfFQSAqfaU3EuLMeHUn9bBCTc1GY/Fk3N9km0R2M6/0gJp9vR2DyF62J+OizEZrsTNWk4M7CXzUkx46Jj+7XP/aRGE2uO00+8U3y5Lw7f/uNLosiJ/3kOz8q9SAkRj6oyfvW3HAaP81qspzKmpnxkfJ3vjaUQCaGzqRUkpdLGY8UnniYLCs9lpfBRMSfiZ/tJOAI6DzuOBrZnGFczJnLK3nDOO1l8nc/JvB53V8nM3kao8mX6uYeTAyxrDR55mGi3G+CmPjZdQKNO9qBB032CyNMvr/m02RjMhM/JOleMBPNwIMmN3J6k8xzt8lcFCa+DsbRmoidR2lSGrhIrkVgMuPLJNC4ox14mMnlnN4k4zJp6E2yE5ms+WpPAo072oGHmWyu6E0Krhrb+FFn0kylPFHWVldXrQfyMs8PvkwCjTuG8Q91c89MTAmlyULDn0lXYbJqGJWyuVwuGsaa0+RknCaagYeb3M/pTV4k0CTQuOMaeAouE2NFv++8dJmoW/uJTcqv4ht3oF6om3s0uWhSqE3O+zOZncwkznFHNwSiyWmzv1ebuAaeaExibO11Aw+a5PK8RVGbuAYe9biDJsuTmcTZ2uuu8LB55z7v722TXK4kghtQ4dlcwzz0NPhCg8+/kOaySNMy4eNOJ/UAsgaZYRBra2gyg4/hjxk0YcvIwZaezs/Pi/Ny8/Pper2enn/0SHGmLrCJeghEk1KJ9/eWSe6y/aObaLJvGFW2qQzgGWbS3DWMq12QKVrvbDtNshX7l2whivWoUi5XrQcMxf4l/Ew/NmT9s/xo2/dG6QU1UTf3zGRlk+08lklJ/llscn8pGkXWyzbgiT1m0oZdZHa2uyu9c7crmWS35F+ypjMp1+S31tNDTar3NaJeQJJRJrhdwKpbJlB085dZLvLy+xz+n7Pt5DW8/R0udEEJdhakubKLuQILTdMEx50srGh1iwV+GFvWag0kirVqtVYub1XRAZ6pogk8X4P39Xq4ovPCZKff75/dUVwjqgccd3RXvZhJJsP6e9lkc6VQKGRyl7hJqcY3j9YBvP2gBePOMidAk0+b3W63edXDZKuTzZbZKqNJucxqLASXscbOsGX+hjKOgHXJZL2OOasyCTju6AYebpK7gRoOE9bZFkyTzDu+ebSwRlTA5EcgeNg1TVgZkU06wgRnQctEedwx3/DDkIlYdW+TgK09DDwjTDL72N+rTQp7bPOYa8EeYxgDMHnILY6wiXrgMU3gr/yK2mShwTYPLLGw91yAlu0KK7HM5Gp32CQ7kclJL5O+yiTguKMbeIQJ9vea7eRFxSiCyVvDAJbXYMJL7GwXthfjZ2Zh9iuTm7zyMEk/6vU8jzvBTdQDj2mCDBedNTaHESbnYQ0bWGKLgyLsRY2fxFYxCxuKsdt09rFZqcZmy+OZlMuv6h4mygQl0VzhESbo4TgW32e5YZq8f42bR6tqVAbwX6thlljcUmAvEu3asEm7xlIcw6Raq/1zfX09USY56O9PSyZ2mMkTLLJzbBs5wL3ooSitUFJw9ym+6XqY2BlpYmc8kxBuelQOPMKE7TybkknezCa+WnjWwu4e/njdwprSgvbVQsDWBCpt021SFKmVR5nAm3ZYevWxTAKPO5qBxzLJAYi7nkBYrf1+AEV2sIdFBYrs20Gbl1ie7hucV3abLpOtDqTMu7SR9eQwzZo0XkFHmvSCmyibe9vkEnuj87hj5ZcBHINb77A3aeEOJIYbEay0V7rexx072uOOfMUrISbY36tNng+gyO4dYJMCvWy1YZVYsf/gLPiwG8hEOqM02iTwuKMZeGwT7O/dJubOUxpcgFpSwWYWi+xbUWKtPhYrraJnmxlr3+FXvMydZ6RJ8HFHM/BI28m+28SadwoD2F0OinA8ZrMx7ESzThPsY9ueJqkxeza8ujN2fxK8tQcTVXMvmWQ0Jgu4yxTNcydwlDDX/0ibKK96SSbY3ytNXrDTBOwkCp5rEyXWMukGNSmf9GUSuLV3DTze28lp2WSFZV/sOy9beDoJ50B+wuBn2+RNE/OplwkeizuHDpNDs7oMnz85fIVH4rFNgpOob/OTTeTe3rjBsilMzregyLLzBfzE0hu7nph9mUeNLVba7Uq7Kvf2uAOybQVNsK0xz7NVqpU+JE4T5RUe2YT191ZlEbnEdqL3c1BkWYnlJyDNBs1xPtZ5LF6Uf4m5w/AHFbFxGNxkxnHqdrw+NgQT5RWeHLTv1o19pXyem5y+YbX2/D6MwpMWDICsxM7N7YndBLPbNreTtlliYJGVkc5WRbT2FXEHwSp7qsprSo29hiblWkW09n327Zb6+s6O1iSU73gpBx4oGvIDQbUiwvsUvKWtNRC3obSaUmPfFDGbuOZyh1/tynZ4rPZkhrUq1kNpGf4+fFq3e/u0veSdEMYd18DzychkHCk8E7dvNSAXlnWxb1Lyc1uOv5vZQjFx3uY3Roa++mTd5ncBk/KTKEx6YZjc82syhPLcYZIdLeHbJM6b2Xju+jZx3gtYitok1hv8JjZxoJRaE5uMhxLrDX485yYwkVEKc5JJIwKTWG/w4xm6wuMbxbrND03WfJGMZxLrzWxBTOzJyLrNLyoTfzezhWJyfXtpVGQK+0lh8pJ1Jo1JTMYie+Vc61CK6Ijkvzw1InJXtyQ9/xnPv67xNMDkQagmDGX4Br84TEZHus6+dEp+4QT7Jxv+bbbyG6msvwo7Hsrwd3eSYSIdmbY3Ha/cxq+Imiazw517SChJN1m6O/TSHUD5T5QmKddNjwkzWVpyvQYo/43UJHWYTrTJ9ufuFx/fithkY+iez2SZOAusyOOPojVJGb16ck2GCqzIzW6kJg8MJ0qiTLaHC6zIr1GaZM8YTpQkmSwdV73+YCNqE/lfwUiSiVeB5TmT2ojQhJ/lt1ESZLJ0T/n6mSxDicjEvJxh/dsgCTLZzitfX4SWfiMyE3Gnl0BJjomywBrmxd9s1CbiaxiJMVEXWENcEM9GY9Kxb/PjKIkxURdYSC30cVg2kb7sw1CSYqIpsJArnShNpG81GTsJMtEUWEg7NhNACf71nFBybvuc9vVilCZZ52ftJGU70RVYI2KT1NCH7YRyASdw7uoKLCbKGvsgllX0neuj3mD9W1rKKFd55E+eiWMNI8jiyCi3gpE/uTX6449oKt4l58huBaHEG+XDNvFG+cBNPFE+dBMvlA/exKi6UMjEjUImbhQyMVynFcgEU+uQiSsOFDLhkVHIxIyEQiYiNgqZWNnqkIkrAoVMpJgoZCKHo5CJIwyFTJxBFDIZymKHTFxZ7JCJK4sdMnFlMaFX+aaa/98rWhQKhUKhUCgUCoVCoVAoFAqFQqFQKJTw8j9gOXT2jsD/zQAAAABJRU5ErkJggg==">
+    <h1 class="h3 mb-3 fw-normal">Sign up Top News!!</h1>
+    <input class="form-control top" name="fname" type="text" placeholder="First Name" required autofocus>
+    <input class="form-control middle" name="lname" type="text" placeholder="Last Name" required>
+    <input class="form-control bottom" name="email" type="email" placeholder="Email" required>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up Now!!</button>
+    <p class="mt-3 mb-3 text-muted">Top News</p>
+  </form>
+</main>
+
+
+
+  </body>
+</html>
